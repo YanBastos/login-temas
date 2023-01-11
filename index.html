@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dark Theme</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+        <h3 id="h3">Login</h3>
+        <input type="text" placeholder=" Login" id="login">
+        <input type="password" placeholder=" Senha" id="senha">
+        <input type="submit" id="submit" onclick="logar(); return false" >
+    </form>
+    <div>
+        <input type="checkbox" class="checkbox" id="chk">
+
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/e931e19d0d.js" crossorigin="anonymous"></script>
+</body>
+</html>
